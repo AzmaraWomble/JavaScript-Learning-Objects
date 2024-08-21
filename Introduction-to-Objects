@@ -1,0 +1,8 @@
+const azmara = {
+    firstName:'Azmara',
+    lastName:'Womble',
+    age:2037-1991,
+    job:'astronaut',
+    friends:['Michael', 'Peter', 'Steven']
+
+};
