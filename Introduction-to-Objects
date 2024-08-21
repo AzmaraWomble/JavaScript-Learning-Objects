@@ -6,3 +6,4 @@ const azmara = {
     friends:['Michael', 'Peter', 'Steven']
 
 };
+console.log(azmara);
