@@ -1,0 +1,20 @@
+const azmara = {
+    firstName:'Azmara',
+    lastName:'Womble',
+    age:2037-1991,
+    job:'astronaut',
+    friends:['Michael', 'Peter', 'Steven']
+
+} ;
+const interestedIn = prompt('What do you want to know about Azmara? Choose between firstName, lastName, age, job, and friends.');
+console.log(interestedIn);
+
+if (azmara[interestedIn]){
+    console.log(azmara[interestedIn]);
+}else{
+    console.log('Wrong request! Choose between firstName, lastName, age, job and friends.')
+}
+
+azmara.location = 'Portugal';
+console.log(azmara);
+
